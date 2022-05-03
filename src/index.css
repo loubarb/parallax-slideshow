@@ -12,6 +12,42 @@ code {
     monospace;
 }
 
-.rocks, .river, .sunset {
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
   height: 100vh;
+  width: 100%;
+}
+
+.rocks {
+  background: url('./img/water-rocks.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.river {
+  background: url('./img/water-river.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.sunset {
+  background: url('./img/sunset.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+} */
+
+.description {
+  font-size: 6em;
 }
