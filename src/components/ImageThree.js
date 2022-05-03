@@ -4,7 +4,7 @@ const ImageThree = () => {
   return (
     <Parallax className="sunset">
       <div className='content'>
-        <span className='description'>Sunset</span>
+      
       </div>
     </Parallax>
   );

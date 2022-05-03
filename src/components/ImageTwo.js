@@ -2,9 +2,9 @@ import { Parallax } from 'react-scroll-parallax';
 
 const ImageTwo = () => {
   return (
-    <Parallax className="river" translateY={['-200px', '200px']}>
+    <Parallax className="river">
       <div className='content'>
-        <span className='description'>River</span>
+      
       </div>
     </Parallax>
   );
