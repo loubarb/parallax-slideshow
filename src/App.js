@@ -4,12 +4,13 @@ import ImageOne from './components/ImageOne';
 import ImageTwo from './components/ImageTwo';
 import ImageThree from './components/ImageThree';
 import TextBox from './components/TextBox';
+import Banner from './components/Banner';
 
 function App() {
   return (
     <div className="App">
       <ParallaxProvider>
-        <TextBox />
+        <Banner />
         <ImageOne />
         <ImageTwo />
         <ImageThree />

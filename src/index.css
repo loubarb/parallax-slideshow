@@ -12,7 +12,11 @@ code {
     monospace;
 }
 
-.content h3 {
+.fullBanner {
+  height: 200vh;
+}
+
+h3 {
   font-size: 67px;
 }
 
