@@ -3,6 +3,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import Banner from './components/Banner';
 import Headline from './components/Headline';
 import World from './components/World';
+import GoldenGate from './components/GoldenGate';
 
 function App() {
   return (
@@ -15,6 +16,12 @@ function App() {
         <div className='globe'>
           <World />
         </div>
+        <div className='noOverflow'>
+          <GoldenGate />
+        </div>
+ 
+          {/* <GoldenGate /> */}
+        
       </ParallaxProvider>
     </div>
   );

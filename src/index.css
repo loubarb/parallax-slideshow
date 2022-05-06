@@ -36,6 +36,18 @@ code {
   background: linear-gradient(rgba(14, 62, 151, 0.5) 50%, black);
 }
 
+.gradientTop {
+  position: inherit;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0,0,0,1) 10%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
+}
+
+.gradientBottom {
+  position: inherit;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+}
+
 .intro, .globe {
   height: 100vh;
   display: flex;
@@ -61,6 +73,38 @@ code {
   height: 150vh;
 }
 
+.goldenGate {
+  background: url('https://i.ibb.co/ckKynFx/golden-gate.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 120vh;
+  width: 100%;
+}
+
+.noOverflow {
+  position: absolute;
+  overflow: hidden;
+  height: 150vh;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h2 {
+  font-size: 5em;
+}
+
+.content p {
+  font-size: 4em;
+}
+
 h1 {
   font-size: 9em;
   font-family: 'Montserrat';
@@ -70,32 +114,6 @@ h1 {
 
 h3 {
   font-size: 67px;
-}
-
-
-.content {
-  position: relative;
-  /* width: 100vw; */
-  height: 170vh;
-  overflow-x: hidden;
-}
-
-.rocks {
-  background: url('./img/water-rocks.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.river {
-  background: url('./img/water-river.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
-.sunset {
-  background: url('./img/sunset.jpg');
-  background-size: cover;
-  background-position: center;
 }
 
 .description {
