@@ -78,14 +78,32 @@ code {
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  height: 120vh;
+  height: 150vh;
+  width: 100%;
+}
+
+.bigBen {
+  background: url('https://i.ibb.co/2dyh9Q4/big-ben.jpg');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 150vh;
+  width: 100%;
+}
+
+.tajMahal {
+  background: url('https://i.ibb.co/Gk01T3g/taj-mahal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 150vh;
   width: 100%;
 }
 
 .noOverflow {
-  position: absolute;
   overflow: hidden;
-  height: 150vh;
+  /* height: 150vh; */
   width: 100%;
 }
 
@@ -103,6 +121,15 @@ code {
 
 .content p {
   font-size: 4em;
+}
+
+.divider {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.blurb {
+  color: gray;
 }
 
 h1 {
