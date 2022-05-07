@@ -22,23 +22,23 @@ function App() {
         <div className='intro'>
           <TopTen />
         </div>
-        <div className='divider'>
-        </div>
+        {/* <div className='divider'>
+        </div> */}
         <div className='noOverflow'>
           <GoldenGate />
         </div>
-        <div className='divider'>
-        </div>
+        {/* <div className='divider'>
+        </div> */}
         <div className='noOverflow'>
           <BigBen />
         </div>
-        <div className='divider'>
-        </div>
+        {/* <div className='divider'>
+        </div> */}
         <div className='noOverflow'>
           <TajMahal />
         </div>
-        <div className='divider'>
-        </div>
+        {/* <div className='divider'>
+        </div> */}
         
       </ParallaxProvider>
     </div>

@@ -78,17 +78,17 @@ code {
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
-  height: 150vh;
+  height: 200vh;
   width: 100%;
 }
 
 .bigBen {
   background: url('https://i.ibb.co/2dyh9Q4/big-ben.jpg');
-  background-size: contain;
+  background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
   overflow: hidden;
-  height: 150vh;
+  height: 200vh;
   width: 100%;
 }
 
@@ -102,15 +102,19 @@ code {
 }
 
 .noOverflow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
-  /* height: 150vh; */
+  height: 150vh;
   width: 100%;
 }
 
 .content {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 120vh;
   align-items: center;
   justify-content: center;
 }
@@ -126,10 +130,6 @@ code {
 .divider {
   height: 100vh;
   overflow: hidden;
-}
-
-.blurb {
-  color: gray;
 }
 
 h1 {
