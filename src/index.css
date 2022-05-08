@@ -11,8 +11,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
+  }
+  
 .bannerContent {
   display: flex;
   height: 170vh;
@@ -25,6 +25,17 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.headlineText {
+  color: grey;
+  font-size: 6em;
+  background-color: #000;
+}
+
+/* .textContainer {
+  height: 120vh;
+  overflow: hidden;
+} */
 
 .fullBanner {
   height: 200vh;
@@ -49,17 +60,20 @@ code {
 }
 
 .intro, .globe {
-  height: 100vh;
+  height: 120vh;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow-x: hidden;
 }
 
-.headlineText {
-  color: grey;
-  font-size: 6em;
-  background-color: #000;
+.topTen {
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  padding-bottom: 40vh;
 }
 
 .globe {
@@ -84,7 +98,7 @@ code {
 
 .bigBen {
   background: url('https://i.ibb.co/2dyh9Q4/big-ben.jpg');
-  background-size: cover;
+  background-size: contain;
   background-position: bottom;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -98,6 +112,73 @@ code {
   background-repeat: no-repeat;
   overflow: hidden;
   height: 150vh;
+  width: 100%;
+}
+
+.mountFuji {
+  background: url('https://i.ibb.co/Nxh9mYX/mount-fuji.jpg');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 200vh;
+  width: 100%;
+}
+
+.operaHouse {
+  background: url('https://i.ibb.co/BP098zh/sydney-opera-house.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 150vh;
+  width: 100%;
+}
+
+.eiffelTower {
+  background: url('https://i.ibb.co/L0hvkwY/eiffel-tower.jpg');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 200vh;
+  width: 100%;
+}
+
+.pyramids {
+  background: url('https://i.ibb.co/F4F7PQM/pyramids.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 150vh;
+  width: 100%;
+}
+
+.colosseum {
+  background: url('https://i.ibb.co/wz3B3sV/colosseum.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 150vh;
+  width: 100%;
+}
+
+.greatWall {
+  background: url('https://i.ibb.co/zRcGzzM/great-wall.jpg');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 200vh;
+  width: 100%;
+}
+
+.statue {
+  background: url('https://i.ibb.co/PxcNzJ5/statue-of-liberty.jpg');
+  background-size: contain;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 200vh;
   width: 100%;
 }
 
