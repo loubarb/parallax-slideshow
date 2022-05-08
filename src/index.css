@@ -27,9 +27,11 @@ code {
 }
 
 .headlineText {
-  color: grey;
+  color: #000;
   font-size: 6em;
-  background-color: #000;
+  background-color: rgba(125,125,125,0.65);
+  border-radius: 20px;
+  padding: 15px;
 }
 
 /* .textContainer {
@@ -202,10 +204,12 @@ code {
 
 .content h2 {
   font-size: 5em;
+  margin: 10px 0;
 }
 
 .content p {
   font-size: 4em;
+  margin: 10px 0;
 }
 
 .divider {
@@ -224,6 +228,7 @@ h3 {
   font-size: 67px;
 }
 
-.description {
-  font-size: 6em;
+.location {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 20px;
 }

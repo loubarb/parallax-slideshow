@@ -59,6 +59,7 @@ function App() {
         <div className='noOverflow'>
           <StatueOfLiberty />
         </div>
+        <div className='divider'></div>
       </ParallaxProvider>
     </div>
   );
