@@ -14,6 +14,7 @@ import Pyramids from './components/Pyramids';
 import GreatWall from './components/GreatWall';
 import Colosseum from './components/Colosseum';
 import StatueOfLiberty from './components/StatueOfLiberty';
+import ThanksBanner from './components/ThanksBanner';
 
 function App() {
   return (
@@ -59,7 +60,10 @@ function App() {
         <div className='noOverflow'>
           <StatueOfLiberty />
         </div>
-        <div className='divider'></div>
+        <div className='noOverflow'>
+          <ThanksBanner />
+        </div>
+        
       </ParallaxProvider>
     </div>
   );

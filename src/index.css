@@ -1,17 +1,20 @@
 body {
   background-color: #000;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Bebas Neue', cursive;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-  }
+} */
+
+h1 {
+  font-size: 9em;
+  letter-spacing: 5px;
+}
   
 .bannerContent {
   display: flex;
@@ -27,6 +30,7 @@ code {
 }
 
 .headlineText {
+  font-family: 'Koulen', cursive;
   color: #000;
   font-size: 6em;
   background-color: rgba(125,125,125,0.65);
@@ -34,10 +38,14 @@ code {
   padding: 15px;
 }
 
-/* .textContainer {
-  height: 120vh;
-  overflow: hidden;
-} */
+.topTenText h1 {
+  color: #000;
+  font-size: 5em;
+  background-color: rgba(125,125,125,0.65);
+  border-radius: 20px;
+  padding: 15px;
+  width: 70vw;
+}
 
 .fullBanner {
   height: 200vh;
@@ -197,19 +205,26 @@ code {
 .content {
   display: flex;
   flex-direction: column;
-  height: 120vh;
+  height: 130vh;
   align-items: center;
   justify-content: center;
 }
 
 .content h2 {
+  font-family: 'Bebas Neue', cursive;
   font-size: 5em;
-  margin: 10px 0;
+  margin: 0;
+  padding: 0 15px;
+  text-shadow: 2px 2px 4px #FFF;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 .content p {
+  font-family: 'Roboto', sans-serif;
   font-size: 4em;
-  margin: 10px 0;
+  margin: 0;
+  text-shadow: 2px 2px 4px #FFF;
 }
 
 .divider {
@@ -217,18 +232,9 @@ code {
   overflow: hidden;
 }
 
-h1 {
-  font-size: 9em;
-  font-family: 'Montserrat';
-  letter-spacing: 5px;
-
-}
-
-h3 {
-  font-size: 67px;
-}
-
 .location {
   background-color: rgba(0,0,0,0.3);
   border-radius: 20px;
+  padding: 0 15px 20px 15px;
+
 }
