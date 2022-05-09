@@ -2,23 +2,13 @@ body {
   background-color: #000;
   margin: 0;
   font-family: 'Bebas Neue', cursive;
-  /* -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
+/* BANNER STYLES */
 
 h1 {
   font-size: 9em;
   letter-spacing: 5px;
-}
-  
-.bannerContent {
-  display: flex;
-  height: 170vh;
 }
 
 .headline {
@@ -29,44 +19,32 @@ h1 {
   align-items: center;
 }
 
-.headlineText {
-  font-family: 'Koulen', cursive;
-  color: #000;
-  font-size: 6em;
-  background-color: rgba(125,125,125,0.65);
-  border-radius: 20px;
-  padding: 15px;
-}
-
-.topTenText h1 {
-  color: #000;
-  font-size: 5em;
-  background-color: rgba(125,125,125,0.65);
-  border-radius: 20px;
-  padding: 15px;
-  width: 70vw;
-}
-
-.fullBanner {
-  height: 200vh;
-}
-
 .gradient {
   position: absolute;
   inset: 0;
   background: linear-gradient(rgba(14, 62, 151, 0.5) 50%, black);
 }
 
-.gradientTop {
-  position: inherit;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(0,0,0,1) 10%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%);
+.fullBanner {
+  height: 200vh;
 }
 
-.gradientBottom {
-  position: inherit;
-  inset: 0;
-  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+/* HEADLINE, WORLD, TOP 10 STYLES */
+
+.headlineText {
+  font-family: 'Koulen', cursive;
+  font-size: 6em;
+  background-color: rgba(125,125,125,0.65);
+  border-radius: 20px;
+  padding: 0 30px;
+}
+
+.topTenText h1 {
+  font-size: 5em;
+  background-color: rgba(125,125,125,0.65);
+  border-radius: 20px;
+  padding: 15px;
+  width: 70vw;
 }
 
 .intro, .globe {
@@ -96,6 +74,51 @@ h1 {
   padding-top: 5%;
   height: 150vh;
 }
+
+/* CONTENT DIV/TEXT STYLES */
+
+.noOverflow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 150vh;
+  width: 100%;
+}
+
+.location {
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 20px;
+  padding: 0 15px 20px 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 130vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 5em;
+  margin: 0;
+  padding: 0 15px;
+  text-shadow: 2px 2px 4px #FFF;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.content p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 4em;
+  margin: 0;
+  text-shadow: 2px 2px 4px #FFF;
+}
+
+/* LOCATION CONTENT STYLES */
 
 .goldenGate {
   background: url('https://i.ibb.co/ckKynFx/golden-gate.jpg');
@@ -192,49 +215,3 @@ h1 {
   width: 100%;
 }
 
-.noOverflow {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  height: 150vh;
-  width: 100%;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  height: 130vh;
-  align-items: center;
-  justify-content: center;
-}
-
-.content h2 {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 5em;
-  margin: 0;
-  padding: 0 15px;
-  text-shadow: 2px 2px 4px #FFF;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-}
-
-.content p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 4em;
-  margin: 0;
-  text-shadow: 2px 2px 4px #FFF;
-}
-
-.divider {
-  height: 100vh;
-  overflow: hidden;
-}
-
-.location {
-  background-color: rgba(0,0,0,0.3);
-  border-radius: 20px;
-  padding: 0 15px 20px 15px;
-
-}
